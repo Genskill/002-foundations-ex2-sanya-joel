@@ -12,8 +12,8 @@ int main (void)
     for (int i=row;i>=1;i--)
     {
       for (int j=1;j<=i;j++)
-        printf ("#");
-      printf ("\n");
+       { printf ("#");
+      printf ("\n");}
     }
   }
   else if (ch==2)
@@ -31,5 +31,5 @@ int main (void)
      }
    }             
     else         
-    printf("Inavalid choice");
+    {printf("Inavalid choice");}
 }
